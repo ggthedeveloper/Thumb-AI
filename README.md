@@ -88,3 +88,6 @@ Validation Metric
 No Improvement
    ↓
 STOP
+```
+### Developed by
+Gaurav Gautam
