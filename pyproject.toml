@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "thumb-ai"
+version = "0.1.0"
+description = "Compute-Aware Training Continuation Intelligence for ML, DL & LLM Training"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "Gaurav Gautam", email = "ggraipurchor@gmail.com" }
+]
+license = { text = "MIT" }
+keywords = ["machine-learning", "deep-learning", "training-continuation", "compute-efficiency", "tcv", "llm-training"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+    "numpy>=1.20.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+]
+
+[project.scripts]
+thumb-ai = "thumb_ai.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+pythonpath = ["."]
