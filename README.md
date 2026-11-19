@@ -178,6 +178,3 @@ pytest -v
 ```
 
 ---
-
-### Developed by
-Gaurav Gautam
