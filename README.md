@@ -173,8 +173,4 @@ print(f"Suggested Action:   {rec.suggested_action}")
 
 Thumb-AI is built with high reliability and zero external tracking. Run the comprehensive test suite with:
 
-```bash
-pytest -v
-```
-
 ---
