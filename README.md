@@ -168,9 +168,3 @@ print(f"Suggested Action:   {rec.suggested_action}")
 ```
 
 ---
-
-## 🧪 Testing
-
-Thumb-AI is built with high reliability and zero external tracking. Run the comprehensive test suite with:
-
----
