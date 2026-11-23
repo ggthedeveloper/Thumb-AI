@@ -55,7 +55,7 @@ TCV =
 {\mathbb{E}[\Delta Compute\ Cost]}
 \]
 
-Where:
+
 
 - `E[ΔPerformance]` = expected improvement from continuing training
 - `E[ΔCompute Cost]` = expected additional computational cost
